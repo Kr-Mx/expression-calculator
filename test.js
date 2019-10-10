@@ -31,7 +31,6 @@ describe("Easy", function() {
         expect(() => expressionCalculator(expr)).to.throw("TypeError: Devision by zero.");
     });
 
-    
     it("Mixed base test 1", function() {
         const expr = " 49 * 63 / 58 * 36 ";
         const result = 1916.0690;
